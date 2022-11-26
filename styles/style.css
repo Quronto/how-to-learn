@@ -22,6 +22,25 @@
   width: 568px;
 }
 
+.header__logo {
+  z-index: 1;
+  width: 228px;
+  height: 32px;
+  
+}
+
+.header__logo_place {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  display: flex;
+  
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
