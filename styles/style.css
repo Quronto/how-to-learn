@@ -92,7 +92,7 @@
   margin: 0 auto;
   display: flex;
   padding-top: 100px;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
 
 .two-columns__brief {
@@ -250,7 +250,6 @@
   color: white;
 }
 
-
 .section-title_theme_dark {
   line-height: 1.15;
   font-size: 60px;
@@ -281,7 +280,6 @@
   margin-right: 0;
   margin-top: 80px;
 }
-
 
 .kaufman__triangle {
   position: absolute;
