@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  
 }
 
 .header {
@@ -35,13 +34,13 @@
   width: 228px;
   height: 32px;
   margin: 0 auto;
-  position: absolute;
 }
 
-.logo__place_header {
+.logo_place_header {
   top: 30px;
   left: 64px;
   z-index: 2;
+  position: absolute;
 }
 
 .header__title {
@@ -79,6 +78,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .description {
@@ -118,13 +118,13 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph_span-accent {
+.two-columns__paragraph__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
 }
 
-.two-columns__paragraph_no-padding-bottom {
+.two-columns__main-text :last-child {
   margin-bottom: 0;
 }
 
@@ -143,6 +143,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  justify-content: center;
 }
 
 .section-subtitle {
@@ -158,6 +159,7 @@
 .table {
   display: flex;
   margin: 0 auto;
+  padding: 0;
   width: 1100px;
   flex-wrap: wrap;
   justify-content: center;
@@ -184,6 +186,10 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.table__text:nth-child(3) {
+  margin-top: 20px;
 }
 
 .table__text_margin_bottom {
@@ -245,7 +251,7 @@
   margin: 0 auto;
   padding: 90px 0;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   z-index: -2;
   color: white;
 }
@@ -254,12 +260,14 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  color: white;
 }
 
 .section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+  color: white;
 }
 
 .table__heading_theme_dark {
@@ -309,8 +317,14 @@
   margin: 0 auto;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
 .footer__column_content_info {
-  padding-left: 50%;
+  padding-left: 35%;
 }
 
 .footer__column_content_social {
@@ -318,7 +332,7 @@
   align-content: center;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   top: 0;
   left: 0;
   background-image: url(/images/logo_place_footer.svg);
@@ -335,7 +349,7 @@
 }
 
 .footer__column-heading {
-  margin: 0 auto;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -358,7 +372,7 @@
   color: white;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   height: 16px;
   width: 16px;
   padding-right: 10px;
