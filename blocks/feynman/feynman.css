@@ -1,6 +1,6 @@
 .feynman {
   margin: 0 auto;
-  height: 890px;
+  min-height: 890px;
   display: flex;
   position: relative;
   flex-direction: column;
