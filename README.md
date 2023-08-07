@@ -20,4 +20,4 @@
 </li>
 ```
 
-Ссылка на проект: https://Quronto.github.io/how-to-learn
+Ссылка на проект: https://quronto.github.io/how-to-learn/index.html
